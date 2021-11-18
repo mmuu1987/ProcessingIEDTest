@@ -15,6 +15,6 @@
 	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="lib/OpenGL-natives/gluegen-rt.jar"/>
 	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/java-exe/PixelFlow.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/java-exe/PixelFlow.jar" sourcepath=""/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
