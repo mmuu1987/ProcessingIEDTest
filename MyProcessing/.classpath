@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Administrator/Documents/Processing/libraries/spout/library"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/controlP5.jar"/>
+	<classpathentry kind="lib" path="lib/spout.jar"/>
+	<classpathentry kind="lib" path="lib/udp.jar"/>
+	<classpathentry kind="lib" path="lib/OpenGL-natives/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/OpenGL-natives/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/java-exe/PixelFlow.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

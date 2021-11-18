@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+			<item value="org.eclipse.debug.ui"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\FILE_WZS\Git\PixelFlow\src"/>
+			<item value="E:\FILE_WZS\Git\PixelFlow"/>
+			<item value="D:\Soft\processing-3.5.4-windows64\processing-3.5.4\core\library"/>
+			<item value="C:\Users\Administrator\Documents\Processing\libraries\controlP5\library"/>
+			<item value="C:\Users\Administrator\Documents\Processing\libraries\spout\library"/>
+			<item value="C:\Users\Administrator\Documents\Processing\libraries\udp\library"/>
+			<item value="C:\Users\Administrator\Documents\Processing\libraries\PixelFlow\library"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+</section>
