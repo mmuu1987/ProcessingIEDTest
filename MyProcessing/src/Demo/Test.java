@@ -601,8 +601,8 @@ public class Test extends PApplet{
         
         if(isReceive) 
         {
-          radius = 25;
-          vscale = 3;
+          radius = 15;
+          vscale = 10;
           
           int myMouseX = (int)(netMouseX*viewport_w);
           int myMouseY = (int)(netMouseY*viewport_h);
