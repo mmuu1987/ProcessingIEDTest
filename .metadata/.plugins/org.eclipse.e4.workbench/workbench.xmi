@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_0CjEQEkbEey54KEjviKUzQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0CjEQUkbEey54KEjviKUzQ" bindingContexts="_0Cjvw0kbEey54KEjviKUzQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;MyProcessing/src/Demo/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Filter\flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;DwFlowField.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.imageprocessing.DwFlowField&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.imageprocessing(DwFlowField.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Waterfall.java&quot; tooltip=&quot;MyProcessing/src/Demo/Waterfall.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Waterfall.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_base.java&quot; tooltip=&quot;MyProcessing/src/Demo/Fluid_base.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Fluid_base.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Fluid_Basic_LIC.class&quot; tooltip=&quot;MyPixelFlow.Fluid_Basic_LIC&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;MyPixelFlow(Fluid_Basic_LIC.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;InputStreamReader.class&quot; tooltip=&quot;java.io.InputStreamReader&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\/jre\/lib\/jrt-fs.jar`java.base=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library=/=/module=/true=/&amp;lt;java.io(InputStreamReader.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Reader.class&quot; tooltip=&quot;java.io.Reader&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\/jre\/lib\/jrt-fs.jar`java.base=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library=/=/module=/true=/&amp;lt;java.io(Reader.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;original_FludField.java&quot; tooltip=&quot;MyProcessing/src/Demo/original_FludField.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/original_FludField.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Fluid\renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Fluid&quot; path=&quot;renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_Basic_LIC.java&quot; tooltip=&quot;PixelFlowSRC/src/MyPixelFlow/Fluid_Basic_LIC.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/MyPixelFlow/Fluid_Basic_LIC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;vorticityForce.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/vorticityForce.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/vorticityForce.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwVertexRecorder.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/utils/DwVertexRecorder.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/utils/DwVertexRecorder.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;streamlineInit.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\javaexe.jar\com\thomasdiewald\pixelflow\glsl\Streamlines\streamlineInit.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/javaexe.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Streamlines&quot; path=&quot;streamlineInit.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwIntegerPair.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/accelerationstructures/DwIntegerPair.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/accelerationstructures/DwIntegerPair.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwFlowField.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/imageprocessing/DwFlowField.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/imageprocessing/DwFlowField.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwFluid2D.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/fluid/DwFluid2D.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/fluid/DwFluid2D.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_lines.glsl&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Spout.class&quot; tooltip=&quot;spout.Spout&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=PixelFlowSRC/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library\/spout.jar&amp;lt;spout(Spout.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;addVelocityBlob.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/addData/addVelocityBlob.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.addData&quot; path=&quot;addVelocityBlob.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFluid2D.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.fluid.DwFluid2D&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.fluid(DwFluid2D.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFlowFieldParticles.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.flowfieldparticles.DwFlowFieldParticles&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.flowfieldparticles(DwFlowFieldParticles.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_lines.glsl&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_lines.glsl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderVelocityStreams.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderVelocityStreams.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderVelocityStreams.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;.project&quot; tooltip=&quot;PixelFlowSRC/.project&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/.project&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&quot; path=&quot;META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Fluid&quot; path=&quot;renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;addDensityBlob.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/addData/addDensityBlob.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.addData&quot; path=&quot;addDensityBlob.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwGeometryShader.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/dwgl/DwGeometryShader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/dwgl/DwGeometryShader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwPixelFlow.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/DwPixelFlow.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/DwPixelFlow.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_Basic_LIC.java&quot; tooltip=&quot;E:\FILE_WZS\Git\PixelFlow\examples\FlowField\Fluid_Basic_LIC\Fluid_Basic_LIC.java&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/E:/FILE_WZS/Git/PixelFlow/examples/FlowField/Fluid_Basic_LIC/Fluid_Basic_LIC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwPixelFlow.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.DwPixelFlow&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java(DwPixelFlow.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;ControlP5.class&quot; tooltip=&quot;controlP5.ControlP5&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/controlP5.jar&amp;lt;controlP5(ControlP5.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwGLSLProgram.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.dwgl.DwGLSLProgram&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.dwgl(DwGLSLProgram.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;ControlP5Constants.class&quot; tooltip=&quot;controlP5.ControlP5Constants&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/controlP5.jar&amp;lt;controlP5(ControlP5Constants.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;UDP.class&quot; tooltip=&quot;hypermedia.net.UDP&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/udp.jar&amp;lt;hypermedia.net(UDP.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UDPTest.java&quot; tooltip=&quot;MyProcessing/src/Demo/UDPTest.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/UDPTest.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFluid2D$FluidData.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.fluid.DwFluid2D$FluidData&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.fluid(DwFluid2D$FluidData.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;PGraphicsOpenGL.class&quot; tooltip=&quot;processing.opengl.PGraphicsOpenGL&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/core.jar&amp;lt;processing.opengl(PGraphicsOpenGL.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Waterfall.java&quot; tooltip=&quot;MyProcessing/src/Demo/Waterfall.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Waterfall.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;PConstants.class&quot; tooltip=&quot;processing.core.PConstants&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/core.jar&amp;lt;processing.core(PConstants.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;PGraphics.class&quot; tooltip=&quot;processing.core.PGraphics&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/core.jar&amp;lt;processing.core(PGraphics.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;MyProcessing/src/Demo/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Filter\flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;DwFlowField.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.imageprocessing.DwFlowField&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.imageprocessing(DwFlowField.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_base.java&quot; tooltip=&quot;MyProcessing/src/Demo/Fluid_base.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/Fluid_base.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Fluid_Basic_LIC.class&quot; tooltip=&quot;MyPixelFlow.Fluid_Basic_LIC&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;MyPixelFlow(Fluid_Basic_LIC.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;InputStreamReader.class&quot; tooltip=&quot;java.io.InputStreamReader&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\/jre\/lib\/jrt-fs.jar`java.base=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library=/=/module=/true=/&amp;lt;java.io(InputStreamReader.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Reader.class&quot; tooltip=&quot;java.io.Reader&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\/jre\/lib\/jrt-fs.jar`java.base=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library=/=/module=/true=/&amp;lt;java.io(Reader.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;original_FludField.java&quot; tooltip=&quot;MyProcessing/src/Demo/original_FludField.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/original_FludField.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Fluid\renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Fluid&quot; path=&quot;renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_Basic_LIC.java&quot; tooltip=&quot;PixelFlowSRC/src/MyPixelFlow/Fluid_Basic_LIC.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/MyPixelFlow/Fluid_Basic_LIC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;vorticityForce.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/vorticityForce.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/vorticityForce.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwVertexRecorder.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/utils/DwVertexRecorder.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/utils/DwVertexRecorder.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;streamlineInit.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\javaexe.jar\com\thomasdiewald\pixelflow\glsl\Streamlines\streamlineInit.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/javaexe.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Streamlines&quot; path=&quot;streamlineInit.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwIntegerPair.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/accelerationstructures/DwIntegerPair.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/accelerationstructures/DwIntegerPair.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwFlowField.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/imageprocessing/DwFlowField.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/imageprocessing/DwFlowField.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwFluid2D.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/fluid/DwFluid2D.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/fluid/DwFluid2D.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_lines.glsl&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Spout.class&quot; tooltip=&quot;spout.Spout&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=PixelFlowSRC/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library\/spout.jar&amp;lt;spout(Spout.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;addVelocityBlob.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/addData/addVelocityBlob.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.addData&quot; path=&quot;addVelocityBlob.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFluid2D.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.fluid.DwFluid2D&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.fluid(DwFluid2D.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFlowFieldParticles.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.flowfieldparticles.DwFlowFieldParticles&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.flowfieldparticles(DwFlowFieldParticles.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;flowfield_display_lines.glsl&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Filter/flowfield_display_lines.glsl&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; path=&quot;flowfield_display_lines.glsl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;renderVelocityStreams.frag&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderVelocityStreams.frag&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/glsl/Fluid/renderVelocityStreams.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;.project&quot; tooltip=&quot;PixelFlowSRC/.project&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/.project&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&quot; path=&quot;META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;renderFluid.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/Fluid/renderFluid.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Fluid&quot; path=&quot;renderFluid.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;addDensityBlob.frag&quot; tooltip=&quot;MyProcessing/lib/PixelFlow.jar/com/thomasdiewald/pixelflow/glsl/addData/addDensityBlob.frag&quot;>&#xD;&#xA;&lt;persistable element=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.addData&quot; path=&quot;addDensityBlob.frag&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwGeometryShader.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/dwgl/DwGeometryShader.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/dwgl/DwGeometryShader.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DwPixelFlow.java&quot; tooltip=&quot;PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/DwPixelFlow.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PixelFlowSRC/src/com/thomasdiewald/pixelflow/java/DwPixelFlow.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Fluid_Basic_LIC.java&quot; tooltip=&quot;E:\FILE_WZS\Git\PixelFlow\examples\FlowField\Fluid_Basic_LIC\Fluid_Basic_LIC.java&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/E:/FILE_WZS/Git/PixelFlow/examples/FlowField/Fluid_Basic_LIC/Fluid_Basic_LIC.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwPixelFlow.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.DwPixelFlow&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java(DwPixelFlow.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;ControlP5.class&quot; tooltip=&quot;controlP5.ControlP5&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/controlP5.jar&amp;lt;controlP5(ControlP5.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwGLSLProgram.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.dwgl.DwGLSLProgram&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.dwgl(DwGLSLProgram.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;ControlP5Constants.class&quot; tooltip=&quot;controlP5.ControlP5Constants&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/controlP5.jar&amp;lt;controlP5(ControlP5Constants.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;UDP.class&quot; tooltip=&quot;hypermedia.net.UDP&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/udp.jar&amp;lt;hypermedia.net(UDP.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UDPTest.java&quot; tooltip=&quot;MyProcessing/src/Demo/UDPTest.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MyProcessing/src/Demo/UDPTest.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;DwFluid2D$FluidData.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.fluid.DwFluid2D$FluidData&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.fluid(DwFluid2D$FluidData.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;PGraphicsOpenGL.class&quot; tooltip=&quot;processing.opengl.PGraphicsOpenGL&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/core.jar&amp;lt;processing.opengl(PGraphicsOpenGL.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_0CjEQUkbEey54KEjviKUzQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0CjEQkkbEey54KEjviKUzQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -216,7 +216,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_0CjsoUkbEey54KEjviKUzQ" elementId="org.eclipse.ui.editorss" selectedElement="_0CjsokkbEey54KEjviKUzQ">
-      <children xsi:type="basic:PartStack" xmi:id="_0CjsokkbEey54KEjviKUzQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_0CjsrEkbEey54KEjviKUzQ">
+      <children xsi:type="basic:PartStack" xmi:id="_0CjsokkbEey54KEjviKUzQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_0CjsqUkbEey54KEjviKUzQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -240,10 +240,12 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CjsqUkbEey54KEjviKUzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Waterfall.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Waterfall.java&quot; partName=&quot;Waterfall.java&quot; title=&quot;Waterfall.java&quot; tooltip=&quot;MyProcessing/src/Demo/Waterfall.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyProcessing/src/Demo/Waterfall.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;14354&quot; selectionTopPixel=&quot;7095&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Waterfall.java&quot; partName=&quot;Waterfall.java&quot; title=&quot;Waterfall.java&quot; tooltip=&quot;MyProcessing/src/Demo/Waterfall.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyProcessing/src/Demo/Waterfall.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;600&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CjsqkkbEey54KEjviKUzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="InputStreamReader.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;InputStreamReader.class&quot; partName=&quot;InputStreamReader.class&quot; title=&quot;InputStreamReader.class&quot; tooltip=&quot;java.io.InputStreamReader&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\/jre\/lib\/jrt-fs.jar`java.base=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\/Users\/Administrator\/Documents\/Processing\/libraries\/spout\/library=/=/module=/true=/&amp;lt;java.io(InputStreamReader.class&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;18&quot; selectionOffset=&quot;2766&quot; selectionTopPixel=&quot;525&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -258,11 +260,10 @@
           <tags>org.eclipse.jdt.ui.ClassFileEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CjsrEkbEey54KEjviKUzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Test.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;MyProcessing/src/Demo/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyProcessing/src/Demo/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;20275&quot; selectionTopPixel=&quot;8634&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;MyProcessing/src/Demo/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyProcessing/src/Demo/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;27&quot; selectionOffset=&quot;20713&quot; selectionTopPixel=&quot;8880&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CjssEkbEey54KEjviKUzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="DwFlowField.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;DwFlowField.class&quot; partName=&quot;DwFlowField.class&quot; title=&quot;DwFlowField.class&quot; tooltip=&quot;com.thomasdiewald.pixelflow.java.imageprocessing.DwFlowField&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.java.imageprocessing(DwFlowField.class&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -271,10 +272,16 @@
           <tags>org.eclipse.jdt.ui.ClassFileEditorNoSource</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_0CjssUkbEey54KEjviKUzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="flowfield_display_pixel.frag" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; partName=&quot;flowfield_display_pixel.frag&quot; title=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Filter\flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;input element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;448&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;flowfield_display_pixel.frag&quot; partName=&quot;flowfield_display_pixel.frag&quot; title=&quot;flowfield_display_pixel.frag&quot; tooltip=&quot;C:\Users\Administrator\Desktop\java-exe\PixelFlow.jar\com\thomasdiewald\pixelflow\glsl\Filter\flowfield_display_pixel.frag&quot;>&#xD;&#xA;&lt;input element=&quot;=MyProcessing/C:\/Users\/Administrator\/Desktop\/java-exe\/PixelFlow.jar&amp;lt;com.thomasdiewald.pixelflow.glsl.Filter&quot; factoryID=&quot;org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory&quot; path=&quot;flowfield_display_pixel.frag&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;608&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.ui.DefaultTextEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_caT70ErVEeyP7Y3yvl0AVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PConstants.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;PConstants.class&quot; partName=&quot;PConstants.class&quot; title=&quot;PConstants.class&quot; tooltip=&quot;processing.core.PConstants&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=MyProcessing/lib\/core.jar&amp;lt;processing.core(PConstants.class&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.ClassFileEditorNoSource</tags>
         </children>
       </children>
     </sharedElements>
@@ -288,7 +295,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0CjszUkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_0CjszUkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0Cjs0UkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
@@ -347,7 +354,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_0Cjs3kkbEey54KEjviKUzQ" elementId="org.eclipse.search.ui.views.SearchView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Search" iconURI="platform:/plugin/org.eclipse.search/icons/full/eview16/searchres.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.search2.internal.ui.SearchView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.search"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view isPinned=&quot;false&quot;>&#xD;&#xA;&lt;view IMemento.internal.id=&quot;org.eclipse.cdt.ui.pdomSearchViewPage&quot; definitionColumnWidth=&quot;150&quot; locationColumnWidth=&quot;300&quot; matchColumnWidth=&quot;300&quot; org.eclipse.search.lastActivation=&quot;1&quot; org.eclipse.search.resultpage.layout=&quot;2&quot; showEnclosingDefinitions=&quot;true&quot;/>&#xD;&#xA;&lt;view IMemento.internal.id=&quot;&quot; org.eclipse.search.lastActivation=&quot;0&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view isPinned=&quot;false&quot;>&#xD;&#xA;&lt;view IMemento.internal.id=&quot;&quot; org.eclipse.search.lastActivation=&quot;0&quot;/>&#xD;&#xA;&lt;view IMemento.internal.id=&quot;org.eclipse.jdt.ui.JavaSearchResultPage&quot; org.eclipse.jdt.search.resultpage.grouping=&quot;4&quot; org.eclipse.jdt.search.resultpage.limit=&quot;1000&quot; org.eclipse.jdt.search.resultpage.limit_enabled=&quot;TRUE&quot; org.eclipse.jdt.search.resultpage.sorting=&quot;1&quot; org.eclipse.search.lastActivation=&quot;1&quot; org.eclipse.search.resultpage.layout=&quot;2&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_0Cjs30kbEey54KEjviKUzQ" elementId="org.eclipse.search.ui.views.SearchView">
@@ -366,7 +373,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0Cjs5EkbEey54KEjviKUzQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_0Cjs5EkbEey54KEjviKUzQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0Cjs80kbEey54KEjviKUzQ" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -390,7 +397,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0Cjs_0kbEey54KEjviKUzQ" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_0Cjs_0kbEey54KEjviKUzQ" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0CjtDEkbEey54KEjviKUzQ" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.texteditor.templates.TemplatesView"/>
@@ -471,7 +478,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtHkkbEey54KEjviKUzQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_0CjtJkkbEey54KEjviKUzQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0ClgtEkbEey54KEjviKUzQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kErZoEncEeyP7Y3yvl0AVQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0ClgtEkbEey54KEjviKUzQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtK0kbEey54KEjviKUzQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -502,21 +509,12 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtjUkbEey54KEjviKUzQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_0Cjtk0kbEey54KEjviKUzQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0Ck8V0kbEey54KEjviKUzQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kEuc8EncEeyP7Y3yvl0AVQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_0Ck8V0kbEey54KEjviKUzQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtmEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.editor.CEditor" visible="false">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_0CjtmUkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
-      </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtmkkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.ClassFileEditor" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_0Cjtm0kbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.ClassFileEditorNoSource" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_0CjtnEkbEey54KEjviKUzQ" elementId="org.eclipse.ui.DefaultTextEditor" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0CjtnUkbEey54KEjviKUzQ" elementId="group.editor" toBeRendered="false">
@@ -807,19 +805,6 @@
     <bindings xmi:id="_0CjuiUkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+D T" command="_0Ck7CkkbEey54KEjviKUzQ"/>
     <bindings xmi:id="_0CjuikkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+D J" command="_0Ck8R0kbEey54KEjviKUzQ"/>
     <bindings xmi:id="_0Cjui0kbEey54KEjviKUzQ" keySequence="ALT+SHIFT+D Q" command="_0ClhZUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjujEkbEey54KEjviKUzQ" keySequence="CTRL+CR" command="_0ClipUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjujUkbEey54KEjviKUzQ" keySequence="ALT+CTRL+C" command="_0Cli-UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjujkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+1" command="_0Cli2kkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjuj0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+2" command="_0Cli6UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjukEkbEey54KEjviKUzQ" keySequence="CTRL+R" command="_0CljDEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjukUkbEey54KEjviKUzQ" keySequence="SHIFT+F9" command="_0Clia0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjukkkbEey54KEjviKUzQ" keySequence="SHIFT+F12" command="_0Clix0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjuk0kbEey54KEjviKUzQ" keySequence="F9" command="_0ClicEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjulEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+F5" command="_0CliQUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjulUkbEey54KEjviKUzQ" keySequence="ALT+P" command="_0Cliz0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjulkkbEey54KEjviKUzQ" keySequence="ALT+T" command="_0ClifEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjul0kbEey54KEjviKUzQ" keySequence="ALT+T" command="_0ClisUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjumEkbEey54KEjviKUzQ" keySequence="SHIFT+CR" command="_0Clix0kbEey54KEjviKUzQ"/>
   </bindingTables>
   <bindingTables xmi:id="_0CjumUkbEey54KEjviKUzQ" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_0CjvzEkbEey54KEjviKUzQ">
     <bindings xmi:id="_0CjumkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+P" command="_0Ck8DkkbEey54KEjviKUzQ"/>
@@ -1004,143 +989,18 @@
   <bindingTables xmi:id="_0CjvNUkbEey54KEjviKUzQ" bindingContext="_0CkSbEkbEey54KEjviKUzQ"/>
   <bindingTables xmi:id="_0CjvNkkbEey54KEjviKUzQ" bindingContext="_0CkSbUkbEey54KEjviKUzQ"/>
   <bindingTables xmi:id="_0CjvN0kbEey54KEjviKUzQ" bindingContext="_0CkSbkkbEey54KEjviKUzQ"/>
-  <bindingTables xmi:id="_0CjvOEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_0Cjv4UkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvOUkbEey54KEjviKUzQ" keySequence="ALT+CTRL+SHIFT+C" command="_0CljE0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvOkkbEey54KEjviKUzQ" keySequence="CTRL+TAB" command="_0CljD0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvO0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+P" command="_0Clib0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvPEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+T" command="_0CliXkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvPUkbEey54KEjviKUzQ" keySequence="CTRL+7" command="_0CliKEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvPkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+H" command="_0ClitkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvP0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+N" command="_0CliTkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvQEkbEey54KEjviKUzQ" keySequence="CTRL+/" command="_0CliKEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvQUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+O" command="_0ClibEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvQkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+A" command="_0Cli60kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvQ0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+C" command="_0CliKEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvREkbEey54KEjviKUzQ" keySequence="ALT+CTRL+S" command="_0CljCUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvRUkbEey54KEjviKUzQ" keySequence="CTRL+#" command="_0Cli1UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvRkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+F" command="_0CljEEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvR0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+G" command="_0CliFEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvSEkbEey54KEjviKUzQ" keySequence="ALT+CTRL+H" command="_0CliVUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvSUkbEey54KEjviKUzQ" keySequence="ALT+CTRL+I" command="_0CliqkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvSkkbEey54KEjviKUzQ" keySequence="CTRL+T" command="_0ClixkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvS0kbEey54KEjviKUzQ" keySequence="CTRL+I" command="_0CliR0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvTEkbEey54KEjviKUzQ" keySequence="CTRL+O" command="_0ClinkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvTUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+/" command="_0CljAEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvTkkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+R" command="_0Cli40kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvT0kbEey54KEjviKUzQ" keySequence="ALT+SHIFT+S" command="_0CliMEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvUEkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+T" command="_0Cli10kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvUUkbEey54KEjviKUzQ" keySequence="CTRL+G" command="_0CljBUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvUkkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+L" command="_0ClihUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvU0kbEey54KEjviKUzQ" keySequence="CTRL+=" command="_0Cli1UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvVEkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+M" command="_0CliIUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvVUkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+O" command="_0CliZ0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvVkkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+Z" command="_0Cli6EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvV0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+\" command="_0Clip0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvWEkbEey54KEjviKUzQ" keySequence="F3" command="_0CljF0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvWUkbEey54KEjviKUzQ" keySequence="F4" command="_0Cli_UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvWkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+ARROW_UP" command="_0Cli5kkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvW0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_0ClixEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvXEkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+ARROW_UP" command="_0ClieEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvXUkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+ARROW_DOWN" command="_0CljEUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvXkkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+ARROW_LEFT" command="_0Cli4EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvX0kbEey54KEjviKUzQ" keySequence="ALT+SHIFT+ARROW_RIGHT" command="_0Cli9UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvYEkbEey54KEjviKUzQ" keySequence="ALT+C" command="_0CliqEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvYUkbEey54KEjviKUzQ" keySequence="SHIFT+TAB" command="_0Ck7k0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvYkkbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.javaEditorScope" bindingContext="_0Cjv3UkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvY0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+P" command="_0ClivEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvZEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+T" command="_0CliikkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvZUkbEey54KEjviKUzQ" keySequence="CTRL+7" command="_0Clir0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvZkkbEey54KEjviKUzQ" keySequence="CTRL+/" command="_0Clir0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvZ0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+C" command="_0Clir0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvaEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+F" command="_0CliNkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvaUkbEey54KEjviKUzQ" keySequence="CTRL+I" command="_0ClifUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvakkbEey54KEjviKUzQ" keySequence="CTRL+O" command="_0CliH0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjva0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+/" command="_0CliiUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvbEkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+U" command="_0CliZUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvbUkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+O" command="_0Clid0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvbkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+\" command="_0CliOkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvb0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+ARROW_UP" command="_0CljFkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvcEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_0CliQkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvcUkbEey54KEjviKUzQ" keySequence="CTRL+F3" command="_0ClinEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvckkbEey54KEjviKUzQ" keySequence="CTRL+2 F" command="_0ClieUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvc0kbEey54KEjviKUzQ" keySequence="CTRL+2 R" command="_0CliWEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvdEkbEey54KEjviKUzQ" keySequence="CTRL+2 L" command="_0CljBEkbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvdUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.cViewScope" bindingContext="_0Cjv80kbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvdkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+T" command="_0CliXkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvd0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+H" command="_0ClitkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjveEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+G" command="_0CliFEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjveUkbEey54KEjviKUzQ" keySequence="ALT+CTRL+H" command="_0CliVUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvekkbEey54KEjviKUzQ" keySequence="ALT+CTRL+I" command="_0CliqkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjve0kbEey54KEjviKUzQ" keySequence="ALT+SHIFT+R" command="_0Cli40kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvfEkbEey54KEjviKUzQ" keySequence="CTRL+G" command="_0CljBUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvfUkbEey54KEjviKUzQ" keySequence="F3" command="_0CljF0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvfkkbEey54KEjviKUzQ" keySequence="F4" command="_0Cli_UkbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0Cjvf0kbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.javascriptViewScope" bindingContext="_0Cjv3kkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvgEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+U" command="_0CliT0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvgUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+H" command="_0CljFEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvgkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+G" command="_0ClipkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvg0kbEey54KEjviKUzQ" keySequence="ALT+CTRL+H" command="_0Cli2UkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvhEkbEey54KEjviKUzQ" keySequence="CTRL+G" command="_0CliwkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvhUkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+J" command="_0ClitUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvhkkbEey54KEjviKUzQ" keySequence="ALT+SHIFT+Z" command="_0CligEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvh0kbEey54KEjviKUzQ" keySequence="SHIFT+F2" command="_0Cli5EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjviEkbEey54KEjviKUzQ" keySequence="F3" command="_0CliyUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjviUkbEey54KEjviKUzQ" keySequence="F4" command="_0Clih0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvikkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.TimelineView" bindingContext="_0Cjv9EkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0Cjvi0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+V" command="_0CliW0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvjEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+K" command="_0Cli8EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvjUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+L" command="_0Clit0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvjkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+C" command="_0CliP0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvj0kbEey54KEjviKUzQ" keySequence="CTRL+S" command="_0CliUkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvkEkbEey54KEjviKUzQ" keySequence="CTRL+Y" command="_0CliPkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvkUkbEey54KEjviKUzQ" keySequence="CTRL+Z" command="_0Cli3kkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvkkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+X" command="_0CliXUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvk0kbEey54KEjviKUzQ" keySequence="SPACE" command="_0ClibUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvlEkbEey54KEjviKUzQ" keySequence="CR" command="_0CliJ0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvlUkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.GraphView" bindingContext="_0Cjv8UkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvlkkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+I" command="_0Cli7EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvl0kbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+J" command="_0Cli20kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvmEkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+K" command="_0ClizEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvmUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+L" command="_0ClidkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvmkkbEey54KEjviKUzQ" keySequence="CTRL+S" command="_0CliHkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvm0kbEey54KEjviKUzQ" keySequence="CTRL+Y" command="_0CljDkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvnEkbEey54KEjviKUzQ" keySequence="CTRL+Z" command="_0CliNUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvnUkbEey54KEjviKUzQ" keySequence="CTRL+SHIFT+X" command="_0ClikkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvnkkbEey54KEjviKUzQ" keySequence="SPACE" command="_0CliLEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvn0kbEey54KEjviKUzQ" keySequence="P" command="_0CliOUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvoEkbEey54KEjviKUzQ" keySequence="CR" command="_0CliIkkbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvoUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" bindingContext="_0Cjv4EkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvokkbEey54KEjviKUzQ" keySequence="CTRL+/" command="_0CliwUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvo0kbEey54KEjviKUzQ" keySequence="F3" command="_0CliukkbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvpEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" bindingContext="_0Cjv6kkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvpUkbEey54KEjviKUzQ" keySequence="CTRL+G" command="_0CljB0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvpkkbEey54KEjviKUzQ" keySequence="HOME" command="_0CliWUkbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0Cjvp0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.debug.ui.debugging" bindingContext="_0Cjv60kbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvqEkbEey54KEjviKUzQ" keySequence="SHIFT+F7" command="_0CliuUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvqUkbEey54KEjviKUzQ" keySequence="SHIFT+F8" command="_0Cli3EkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvqkkbEey54KEjviKUzQ" keySequence="SHIFT+F5" command="_0Clif0kbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvq0kbEey54KEjviKUzQ" keySequence="SHIFT+F6" command="_0CliKUkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvrEkbEey54KEjviKUzQ" keySequence="CTRL+F5" command="_0Cli-0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvrUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" bindingContext="_0Cjv90kbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvrkkbEey54KEjviKUzQ" keySequence="ALT+ARROW_LEFT" command="_0CliyEkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0Cjvr0kbEey54KEjviKUzQ" keySequence="ALT+ARROW_RIGHT" command="_0ClizkkbEey54KEjviKUzQ"/>
-    <bindings xmi:id="_0CjvsEkbEey54KEjviKUzQ" keySequence="F3" command="_0CljF0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0CjvsUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.asmEditorScope" bindingContext="_0Cjv30kbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvskkbEey54KEjviKUzQ" keySequence="F3" command="_0CljF0kbEey54KEjviKUzQ"/>
-  </bindingTables>
-  <bindingTables xmi:id="_0Cjvs0kbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.ViewportView" bindingContext="_0Cjv9UkbEey54KEjviKUzQ">
-    <bindings xmi:id="_0CjvtEkbEey54KEjviKUzQ" keySequence="ESC" command="_0ClirUkbEey54KEjviKUzQ"/>
-  </bindingTables>
+  <bindingTables xmi:id="_0CjvOEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_0Cjv4UkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvYkkbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.javaEditorScope" bindingContext="_0Cjv3UkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvdUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.cViewScope" bindingContext="_0Cjv80kbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0Cjvf0kbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.javascriptViewScope" bindingContext="_0Cjv3kkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvikkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.TimelineView" bindingContext="_0Cjv9EkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvlUkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.GraphView" bindingContext="_0Cjv8UkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvoUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" bindingContext="_0Cjv4EkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvpEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" bindingContext="_0Cjv6kkbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0Cjvp0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.debug.ui.debugging" bindingContext="_0Cjv60kbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvrUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" bindingContext="_0Cjv90kbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0CjvsUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.asmEditorScope" bindingContext="_0Cjv30kbEey54KEjviKUzQ"/>
+  <bindingTables xmi:id="_0Cjvs0kbEey54KEjviKUzQ" elementId="org.synthclipse.ide.context.ViewportView" bindingContext="_0Cjv9UkbEey54KEjviKUzQ"/>
   <bindingTables xmi:id="_0CjvtUkbEey54KEjviKUzQ" bindingContext="_0CkSb0kbEey54KEjviKUzQ"/>
   <bindingTables xmi:id="_0CjvtkkbEey54KEjviKUzQ" bindingContext="_0CkScEkbEey54KEjviKUzQ"/>
   <bindingTables xmi:id="_0Cjvt0kbEey54KEjviKUzQ" bindingContext="_0CkScUkbEey54KEjviKUzQ"/>
@@ -1426,9 +1286,9 @@
     <tags>View</tags>
     <tags>categoryTag:Java</tags>
   </descriptors>
-  <descriptors xmi:id="_0CkSmEkbEey54KEjviKUzQ" elementId="org.eclipse.ui.texteditor.TemplatesView" label="Templates" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/templates.gif" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_0CkSmEkbEey54KEjviKUzQ" elementId="org.eclipse.ui.texteditor.TemplatesView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.png" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.texteditor.templates.TemplatesView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.jdt.ui"/>
     <tags>View</tags>
     <tags>categoryTag:General</tags>
   </descriptors>
@@ -1604,186 +1464,18 @@
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
   </descriptors>
-  <descriptors xmi:id="_0CkStkkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.codan.internal.ui.views.ProblemDetails" label="Problem Details" iconURI="platform:/plugin/org.eclipse.cdt.codan.ui/icons/edit_bug.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.codan.internal.ui.views.ProblemDetails"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.codan.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSt0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.debug.ui.executablesView" label="Executables" iconURI="platform:/plugin/org.eclipse.cdt.debug.ui/icons/obj16/exec_view_obj.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.debug.internal.ui.views.executables.ExecutablesView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.debug.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSuEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.debug.ui.SignalsView" label="Signals" iconURI="platform:/plugin/org.eclipse.cdt.debug.ui/icons/view16/signals_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.debug.internal.ui.views.signals.FlexibleSignalsView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.debug.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSuUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.debug.ui.debuggerConsoleView" label="Debugger Console" iconURI="platform:/plugin/org.eclipse.cdt.debug.ui/icons/view16/debugger_console_view.png" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.debug.internal.ui.views.debuggerconsole.DebuggerConsoleView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.debug.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSukkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="Trace Control" iconURI="platform:/plugin/org.eclipse.cdt.dsf.gdb.ui/icons/full/view16/tracecontrol_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.dsf.gdb.internal.ui.tracepoints.TraceControlView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.dsf.gdb.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSu0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.gdb.ui.osresources.view" label="OS Resources" iconURI="platform:/plugin/org.eclipse.cdt.dsf.gdb.ui/icons/full/view16/osresources_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.dsf.gdb.internal.ui.osview.OSResourcesView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.dsf.gdb.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSvEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.gdb.ui.debugsources.view" label="Debug Sources" iconURI="platform:/plugin/org.eclipse.cdt.dsf.gdb.ui/icons/full/view16/debugsources_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.dsf.gdb.internal.ui.debugsources.DebugSourcesView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.dsf.gdb.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSvUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly" iconURI="platform:/plugin/org.eclipse.cdt.dsf.ui/icons/disassembly.gif" tooltip="" allowMultiple="true" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.dsf.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Debug</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSvkkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.make.ui.views.MakeView" label="Build Targets" iconURI="platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif" tooltip="" category="Make" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.make.ui.views.MakeView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.make.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Make</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSv0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.CView" label="C/C++ Projects" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/cview.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.cview.CView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSwEkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.IndexView" label="C/C++ Index" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/types.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.indexview.IndexView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSwUkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.includeBrowser" label="Include Browser" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/includeBrowser.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.includebrowser.IBViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSwkkbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/call_hierarchy.gif" tooltip="" allowMultiple="true" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.callhierarchy.CHViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSw0kbEey54KEjviKUzQ" elementId="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/class_hi.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.cdt.internal.ui.typehierarchy.THViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.cdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:C/C++</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSxEkbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.callhierarchy.view" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/eview16/call_hierarchy.gif" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.wst.jsdt.internal.ui.callhierarchy.CallHierarchyViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.jsdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Other</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSxUkbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.SourceView" label="Declaration" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/eview16/source.gif" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.wst.jsdt.internal.ui.infoviews.SourceView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.jsdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Other</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSxkkbEey54KEjviKUzQ" elementId="org.eclipse.wst.jsdt.ui.JavadocView" label="Documentation" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/eview16/javadoc.gif" tooltip="JavaScript Documentation" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.wst.jsdt.internal.ui.infoviews.JavadocView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.jsdt.ui"/>
-    <tags>View</tags>
-    <tags>categoryTag:Other</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSx0kbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.UniformControlsView" label="Uniform Controls" iconURI="platform:/plugin/org.synthclipse.ide/images/uniform-controls.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.UniformControlsView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSyEkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.CameraView" label="Camera" iconURI="platform:/plugin/org.synthclipse.ide/images/camera.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.CameraView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSyUkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.RenderingView" label="Rendering" iconURI="platform:/plugin/org.synthclipse.ide/images/rendering.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.RenderingView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSykkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.ViewportView" label="Viewport" iconURI="platform:/plugin/org.synthclipse.ide/images/viewport.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.ViewportView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSy0kbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.CodePreviewView" label="Code Preview" iconURI="platform:/plugin/org.synthclipse.ide/images/codePreview.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.CodePreviewView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSzEkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.TimelineView" label="Timeline" iconURI="platform:/plugin/org.synthclipse.ide/images/timeline.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.TimelineView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSzUkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.GraphView" label="Graph" iconURI="platform:/plugin/org.synthclipse.ide/images/graph.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.GraphView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSzkkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.RecordingView" label="Recording" iconURI="platform:/plugin/org.synthclipse.ide/images/movie.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.RecordingView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkSz0kbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.AudioPlayerView" label="Audio Player" iconURI="platform:/plugin/org.synthclipse.ide/images/music.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.AudioPlayerView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkS0EkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.PlaylistView" label="Playlist" iconURI="platform:/plugin/org.synthclipse.ide/images/list.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.AudioPlaylistView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <descriptors xmi:id="_0CkS0UkbEey54KEjviKUzQ" elementId="org.synthclipse.ide.views.MidiMappingView" label="MIDI Mapping" iconURI="platform:/plugin/org.synthclipse.ide/images/midi-mapping.png" tooltip="" category="Synthclipse" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.synthclipse.ide.views.MidiMappingView"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.synthclipse.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:Synthclipse</tags>
-  </descriptors>
-  <trimContributions xmi:id="_0Ck60UkbEey54KEjviKUzQ" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
-    <children xsi:type="menu:ToolControl" xmi:id="_0Ck60kkbEey54KEjviKUzQ" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:PerspectiveSpacer</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_0Ck600kbEey54KEjviKUzQ" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
       <tags>move_after:Spacer Glue</tags>
       <tags>HIDEABLE</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_0Ck61EkbEey54KEjviKUzQ" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:SearchField</tags>
       <tags>SHOW_RESTORE_MENU</tags>

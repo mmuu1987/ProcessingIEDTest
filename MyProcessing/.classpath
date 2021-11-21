@@ -7,7 +7,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/core.jar" sourcepath="lib/core.jar"/>
 	<classpathentry kind="lib" path="lib/controlP5.jar"/>
 	<classpathentry kind="lib" path="lib/spout.jar"/>
 	<classpathentry kind="lib" path="lib/udp.jar"/>
@@ -15,6 +15,6 @@
 	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="lib/OpenGL-natives/gluegen-rt.jar"/>
 	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/java-exe/PixelFlow.jar" sourcepath=""/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/Processing/libraries/PixelFlow/library/PixelFlow.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
