@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="vVal"/>
+		<item key="selection" value="brush"/>
 		<list key="findhistory">
+			<item value="brush"/>
 			<item value="vVal"/>
 			<item value="renderFluidTextures"/>
 			<item value="320"/>

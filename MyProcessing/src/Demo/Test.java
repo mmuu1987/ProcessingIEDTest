@@ -126,7 +126,7 @@ public class Test extends PApplet{
       
       // set some simulation parameters
       fluid.param.dissipation_density     = 0.999f;
-      fluid.param.dissipation_velocity    = 0.99f;
+      fluid.param.dissipation_velocity    = 0.74f;
       fluid.param.dissipation_temperature = 0.80f;
       fluid.param.vorticity               = 0.10f;
       
