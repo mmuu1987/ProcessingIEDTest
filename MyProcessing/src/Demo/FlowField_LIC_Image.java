@@ -88,6 +88,8 @@ public class FlowField_LIC_Image extends PApplet{
     
     PImage img;
     
+    Spout spout;
+    
     public void settings() {
       if(START_FULLSCREEN){
         viewport_w = displayWidth;
@@ -126,6 +128,9 @@ public class FlowField_LIC_Image extends PApplet{
       ff_impulse.param_lic.vel_mult = 1f;
       ff_impulse.param_lic.TRACE_BACKWARD = true;
       ff_impulse.param_lic.TRACE_FORWARD  = !true;
+      
+      
+      spout = new Spout(this);
       
       resizeScene();
       
@@ -301,6 +306,8 @@ public class FlowField_LIC_Image extends PApplet{
         noFill();
         ellipse(mouseX, mouseY, impulse_radius, impulse_radius);
       }
+      
+      spout.sendTexture();
       
       info();
     }

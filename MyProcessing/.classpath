@@ -16,5 +16,7 @@
 	<classpathentry kind="lib" path="lib/OpenGL-natives/gluegen-rt.jar"/>
 	<classpathentry kind="lib" path="lib/OpenGL-natives/jogl-all.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Documents/Processing/libraries/PixelFlow/library/PixelFlow.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/oscParticleTest/oscParticleTest/lib/MSAFluid.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/oscParticleTest/oscParticleTest/lib/MSAFluidDemo.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
