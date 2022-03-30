@@ -179,7 +179,13 @@ public class Test extends PApplet{
       udp.setBuffer(1024);
       udp.listen( true );
       udp.setReceiveHandler("myReceive");
+    
       
+      for (int j = 0; j < netInfos.length; j++)
+      {
+    	  netInfos[j] = new NetInfo();
+      }
+    
       println(DwPixelFlow.SHADER_DIR);
     
       createGUI();
@@ -197,13 +203,92 @@ public class Test extends PApplet{
        
        String [] strs= str.split(";");
        
+       if(strs.length!=netInfos.length)return;//如果不符合数据，则不进行处理
+       
+       
+       for (int i = 0; i < netInfos.length; i++)
+       {
+           String [] infos= strs[i].split(",");
+           
+           
+        	netInfos[i].netMouseX =Float.parseFloat( infos[0]);
+        	netInfos[i].netMouseY =Float.parseFloat( infos[1]);
+           
+       }
+       
        isReceive = true;
        
-       netMouseX = Float.parseFloat(strs[0]);
+      // netMouseX = Float.parseFloat(strs[0]);
        
-       netMouseY = Float.parseFloat(strs[1]);
+      // netMouseY = Float.parseFloat(strs[1]);
     }
 
+    
+    
+    public void HandleInputData(DwFluid2D fluid)
+    {
+    	
+    	 
+    	  
+    	  if(isReceive) 
+          {
+    		   for (int i = 0; i < netInfos.length; i++)
+    	       {
+    			   float px, py, vx, vy, radius, vscale ;
+    			   
+    			    radius = 15;
+    	            vscale = 10;
+    	            
+    	            float netMouseXTemp=netInfos[i].netMouseX;
+    	            
+    	            float netMouseYTemp=netInfos[i].netMouseY;
+    	            
+    	            int tempX = netInfos[i].tempX;
+    	            
+    	            int tempY = netInfos[i].tempY;
+    	            
+                    int netPMouseX =  netInfos[i].netPMouseX;
+                    
+                    int netPMouseY = netInfos[i].netPMouseY;
+    	            
+    	            int myMouseX = (int)(netMouseXTemp*viewport_w);
+    	            int myMouseY = (int)(netMouseYTemp*viewport_h);
+    	            px     = myMouseX;
+    	            py     = height-myMouseY;
+    	            
+    	            int tempx = (myMouseX - netPMouseX);
+    	            int tempy = (myMouseY - netPMouseY);
+    	            
+    	           // println(tempx+"   "+tempy);
+    	           
+    	            if(tempx==0 && tempy==0)
+    	            {
+    	          	  tempx = tempX;
+    	          	  tempy = tempY;
+    	            }
+    	            else 
+    	            {
+    	            	netInfos[i].tempX=tempx;
+    	            	netInfos[i].tempY=tempy;
+    	  		
+    	            }
+    	           
+    	            vx     = tempx * +vscale;
+    	            vy     = tempy * -vscale;
+    	           // println( "mouseX: \""+myMouseX+"\" height "+height+" on mouseY "+py+"  pmouseX " +netPMouseX+"   pmouseY"+myMouseY );
+    	            fluid.addDensity(px, py, radius, 0.25f, 0.0f, 0.1f, 1.0f);
+    	            fluid.addVelocity(px, py, radius, vx, vy);
+    	           
+    	            netInfos[i].netPMouseX= myMouseX;
+    	            netInfos[i].netPMouseY = myMouseY;
+    			  
+    	       }
+    		   
+    		  
+          }
+    	  
+    	  isReceive=false;
+    }
     @Override 
     public void draw() 
     {    
@@ -511,44 +596,7 @@ public class Test extends PApplet{
       
         float px, py, vx, vy, radius, vscale, r, g, b, intensity, temperature;
         
-         //add impulse: density + temperature
-//         intensity = 1.0f;
-//         px = 1*width/3;
-//         py = 0;
-//         radius = 100;
-//         r = 0.0f;
-//         g = 0.3f;
-//         b = 1.0f;
-//         fluid.addDensity(px, py, radius, r, g, b, intensity);
-//
-//         if((fluid.simulation_step) % 200 == 0){
-//           temperature = 50f;
-//           fluid.addTemperature(px, py, radius, temperature);
-//         }
-        
-        // // add impulse: density + temperature
-//         float animator = sin(fluid.simulation_step*0.01f);
-//   
-//         intensity = 1.0f;
-//         px = 2*width/3f;
-//         py = 150;
-//         radius = 10;
-//         r = 1.0f;
-//         g = 0.0f;
-//         b = 0.3f;
-//         fluid.addDensity(px, py, radius, r, g, b, intensity);
-//        
-//         temperature = animator * 20f;
-        // fluid.addTemperature(px, py, radius, temperature);
-        
-        
-         // add impulse: density 
-//         px = 1*width/3f;
-//         py = height-2*height/3f;
-//         radius = 50.5f;
-//         r = g = b = 64/255f;
-//         intensity = 1.0f;
-//         fluid.addDensity(px, py, radius, r, g, b, intensity, 3);
+
 
         
           boolean mouse_input = !cp5.isMouseOver() && mousePressed && !obstacle_painter.isDrawing();
@@ -582,21 +630,6 @@ public class Test extends PApplet{
            // println( "mouseX: \""+mouseX+"\" height "+height+" on mouseY "+mouseY+"  pmouseX " +pmouseX+"   pmouseY"+pmouseY );
            // fluid.addDensity(px, py, radius, 0.25f, 0.0f, 0.1f, 1.0f);
            fluid.addVelocity(px, py, radius, vx, vy);
-           
-          
-            
-//            float scale = 100;
-//            
-//            fluid.addVelocity(px+scale, py+scale, radius, vx, vy);
-//            
-//            fluid.addVelocity(px-scale, py+scale, radius, vx, vy);
-//         
-//            fluid.addVelocity(px-scale, py-scale, radius, vx, vy);
-//            
-//            fluid.addVelocity(px+scale, py-scale, radius, vx, vy);
-           
-          // fluid.addTemperature(px, py, radius, -2);
-            
           }
         
         if(isReceive) 
@@ -634,10 +667,6 @@ public class Test extends PApplet{
           isReceive=false;
           netPMouseX= myMouseX;
           netPMouseY = myMouseY;
-          
-         
-          
-         
         }
        
       }
@@ -656,8 +685,8 @@ public class Test extends PApplet{
     
     int tempY=0;
     
-  
-    
+    NetInfo [] netInfos =new NetInfo[5];
+
       
       public class ObstaclePainter
       {
@@ -749,4 +778,17 @@ public class Test extends PApplet{
     } 
     
     
+      public class NetInfo
+      {
+    	  float netMouseX=0.5f;
+    	    float netMouseY=0.5f;
+
+    	    int netPMouseX=1;
+    	    int netPMouseY=1;
+    	    
+    	    int tempX=0;
+    	    
+    	    int tempY=0;
+    	    
+      }
     } 

@@ -5,6 +5,9 @@ import com.thomasdiewald.pixelflow.java.fluid.DwFluid2D;
 import com.thomasdiewald.pixelflow.java.imageprocessing.DwFlowField;
 import com.thomasdiewald.pixelflow.java.imageprocessing.filter.DwFilter;
 import com.thomasdiewald.pixelflow.java.utils.DwUtils;
+
+import Demo.Test.NetInfo;
+
 import com.thomasdiewald.pixelflow.java.dwgl.DwGLSLProgram;
 
 import controlP5.Accordion;
@@ -38,8 +41,8 @@ public class Waterfall extends PApplet {
 // 
 //  
 
-	public static void main(String... args) {
-		Waterfall pt = new Waterfall();
+	public static void main(final String... args) {
+		final Waterfall pt = new Waterfall();
 		PApplet.runSketch(new String[] { "Waterfall" }, pt);
 	}
 
@@ -47,11 +50,11 @@ public class Waterfall extends PApplet {
 
 		@Override
 		// this is called during the fluid-simulation update step.
-		public void update(DwFluid2D fluid) {
+		public void update(final DwFluid2D fluid) {
 
 			float px, py, vx, vy, radius, vscale;
 
-			boolean mouse_input = !cp5.isMouseOver() && mousePressed && !obstacle_painter.isDrawing();
+			final boolean mouse_input = !cp5.isMouseOver() && mousePressed && !obstacle_painter.isDrawing();
 			if (mouse_input) {
 
 				vscale = 10;
@@ -68,21 +71,62 @@ public class Waterfall extends PApplet {
 			}
 
 			// use the text as input for density
-			float mix_density = fluid.simulation_step == 0 ? 1.0f : 0.05f;
-			float mix_velocity = fluid.simulation_step == 0 ? 1.0f : 0.5f;
+			final float mix_density = fluid.simulation_step == 0 ? 1.0f : 0.05f;
+			final float mix_velocity = fluid.simulation_step == 0 ? 1.0f : 0.5f;
 
 			addDensityTexture(fluid, pg_density, mix_density);
 			addVelocityTexture(fluid, pg_velocity, mix_velocity);
+			
+			HandleInputData(fluid);
+			
+//			  if(isReceive) 
+//		      {
+//		          radius = 15;
+//		          vscale = 10;
+//		          
+//		          final int myMouseX = (int)(netMouseX*viewport_w);
+//		          final int myMouseY = (int)(netMouseY*viewport_h);
+//		          px     = myMouseX;
+//		          py     = height-myMouseY;
+//		          
+//		          int tempx = (myMouseX - netPMouseX);
+//		          int tempy = (myMouseY - netPMouseY);
+//		          
+//		         // println(tempx+"   "+tempy);
+//		         
+//		          if(tempx==0 && tempy==0)
+//		          {
+//		        	  tempx = tempX;
+//		        	  tempy = tempY;
+//		          }
+//		          else 
+//		          {
+//					tempX=tempx;
+//					tempY=tempy;
+//				
+//		          }
+//		         
+//		          vx     = tempx * +vscale;
+//		          vy     = tempy * -vscale;
+//		         // println( "mouseX: \""+myMouseX+"\" height "+height+" on mouseY "+py+"  pmouseX " +netPMouseX+"   pmouseY"+myMouseY );
+//		          fluid.addDensity(px, py, radius, 0.25f, 0.0f, 0.1f, 1.0f);
+//		          fluid.addVelocity(px, py, radius, vx, vy);
+//		          isReceive=false;
+//		          netPMouseX= myMouseX;
+//		          netPMouseY = myMouseY;
+//		          
+//		         
+//		        }
 		}
 
 		// custom shader, to add velocity from a texture (PGraphics2D) to the fluid.
-		public void addVelocityTexture(DwFluid2D fluid, PGraphics2D pg, float mix) {
-			int[] pg_tex_handle = new int[1];
+		public void addVelocityTexture(final DwFluid2D fluid, final PGraphics2D pg, final float mix) {
+			final int[] pg_tex_handle = new int[1];
 //      pg_tex_handle[0] = pg.getTexture().glName
 			context.begin();
 			context.getGLTextureHandle(pg, pg_tex_handle);
 			context.beginDraw(fluid.tex_velocity.dst);
-			DwGLSLProgram shader = context.createShader("data/addVelocity.frag");
+			final DwGLSLProgram shader = context.createShader("data/addVelocity.frag");
 			shader.begin();
 			shader.uniform2f("wh", fluid.fluid_w, fluid.fluid_h);
 			shader.uniform1i("blend_mode", 6);
@@ -98,13 +142,13 @@ public class Waterfall extends PApplet {
 		}
 
 		// custom shader, to add density from a texture (PGraphics2D) to the fluid.
-		public void addDensityTexture(DwFluid2D fluid, PGraphics2D pg, float mix) {
-			int[] pg_tex_handle = new int[1];
+		public void addDensityTexture(final DwFluid2D fluid, final PGraphics2D pg, final float mix) {
+			final int[] pg_tex_handle = new int[1];
 //      pg_tex_handle[0] = pg.getTexture().glName
 			context.begin();
 			context.getGLTextureHandle(pg, pg_tex_handle);
 			context.beginDraw(fluid.tex_density.dst);
-			DwGLSLProgram shader = context.createShader("data/addDensity.frag");
+			final DwGLSLProgram shader = context.createShader("data/addDensity.frag");
 			shader.begin();
 			shader.uniform2f("wh", fluid.fluid_w, fluid.fluid_h);
 			shader.uniform1i("blend_mode", 2);
@@ -139,6 +183,8 @@ public class Waterfall extends PApplet {
 	MyFluidData cb_fluid_data;
 
 	Spout spout;
+	
+	UDP udp;
 
 	PGraphics2D pg_fluid; // render target
 	PGraphics2D pg_density; // texture-buffer, for adding fluid data
@@ -217,18 +263,132 @@ public class Waterfall extends PApplet {
 		obstacle_painter = new ObstaclePainter(pg_obstacles_drawing);
 
 //    PFont font = createDefaultFont(12);
-		PFont font = createFont("Arial", 12, false);
+		final PFont font = createFont("Arial", 12, false);
 		textFont(font);
 
 		resize();
 
 		spout = new Spout(this);
+		
+		  udp = new UDP( this, 6000);
+	      udp.setBuffer(1024);
+	      udp.listen( true );
+	      udp.setReceiveHandler("myReceive");
+	      
 
+	      for (int j = 0; j < netInfos.length; j++)
+	      {
+	    	  netInfos[j] = new NetInfo();
+	      }
+	      
 		createGUI();
 
 		frameRate(60);
 	}
+	
+     boolean isReceive=false;
+      
+	    float netMouseX=0.5f;
+	    float netMouseY=0.5f;
 
+	    int netPMouseX=1;
+	    int netPMouseY=1;
+	    
+	    int tempX=0;
+	    
+	    int tempY=0;
+	  
+	    public NetInfo [] netInfos= new NetInfo[5];
+	    
+	 
+	    
+	   public  void myReceive( final byte[] data, final String ip, final int port ) 
+	    {
+	 	 
+	      
+		   final String str = new String(data);
+	       
+	       
+	       final String [] strs= str.split(";");
+	       
+	       if(strs.length!=netInfos.length)return;//如果不符合数据，则不进行处理
+	       
+	       
+	       for (int i = 0; i < netInfos.length; i++)
+	       {
+	           final String [] infos= strs[i].split(",");
+	           
+	           
+	        	netInfos[i].netMouseX =Float.parseFloat( infos[0]);
+	        	netInfos[i].netMouseY =Float.parseFloat( infos[1]);
+	           
+	       }
+	       
+	       isReceive = true;
+	    }
+	  
+	   public void HandleInputData(final DwFluid2D fluid)
+	    {
+	    	  if(isReceive) 
+	          {
+	    		   for (int i = 0; i < netInfos.length; i++)
+	    	       {
+	    			   float px, py, vx, vy, radius, vscale ;
+	    			   
+	    			    radius = 15;
+	    	            vscale = 10;
+	    	            
+	    	            final float netMouseXTemp=netInfos[i].netMouseX;
+	    	            
+	    	            final float netMouseYTemp=netInfos[i].netMouseY;
+	    	            
+	    	            final int tempX = netInfos[i].tempX;
+	    	            
+	    	            final int tempY = netInfos[i].tempY;
+	    	            
+	                    final int netPMouseX =  netInfos[i].netPMouseX;
+	                    
+	                    final int netPMouseY = netInfos[i].netPMouseY;
+	    	            
+	    	            final int myMouseX = (int)(netMouseXTemp*viewport_w);
+	    	            final int myMouseY = (int)(netMouseYTemp*viewport_h);
+	    	            px     = myMouseX;
+	    	            py     = height-myMouseY;
+	    	            
+	    	            int tempx = (myMouseX - netPMouseX);
+	    	            int tempy = (myMouseY - netPMouseY);
+	    	            
+	    	           // println(tempx+"   "+tempy);
+	    	           
+	    	            if(tempx==0 && tempy==0)
+	    	            {
+	    	          	  tempx = tempX;
+	    	          	  tempy = tempY;
+	    	            }
+	    	            else 
+	    	            {
+	    	            	netInfos[i].tempX=tempx;
+	    	            	netInfos[i].tempY=tempy;
+	    	  		
+	    	            }
+	    	           
+	    	            vx     = tempx * +vscale;
+	    	            vy     = tempy * -vscale;
+	    	           // println( "mouseX: \""+myMouseX+"\" height "+height+" on mouseY "+py+"  pmouseX " +netPMouseX+"   pmouseY"+myMouseY );
+	    	            fluid.addDensity(px, py, radius, 0.25f, 0.0f, 0.1f, 1.0f);
+	    	            fluid.addVelocity(px, py, radius, vx, vy);
+	    	           
+	    	            netInfos[i].netPMouseX= myMouseX;
+	    	            netInfos[i].netPMouseY = myMouseY;
+	    			  
+	    	       }
+	    		   
+	    		  
+	          }
+	    	  
+	    	  isReceive=false;
+	    }
+	  
 	public void resize() {
 
 		if (!fluid.resize(width, height, fluidgrid_scale)) {
@@ -238,31 +398,31 @@ public class Waterfall extends PApplet {
 		viewport_w = width;
 		viewport_h = height;
 
-		float[][] PALLETTE_L = { { 0, 0, 0, 255 }, { 255, 160, 0, 255 }, { 0, 96, 255, 255 }, { 255, 160, 0, 255 },
+		final float[][] PALLETTE_L = { { 0, 0, 0, 255 }, { 255, 160, 0, 255 }, { 0, 96, 255, 255 }, { 255, 160, 0, 255 },
 				{ 0, 0, 0, 255 }, };
-		float[][] PALLETTE_R = { { 0, 0, 0, 255 }, { 64, 0, 0, 255 }, { 255, 192, 0, 255 }, { 64, 0, 0, 255 },
+		final float[][] PALLETTE_R = { { 0, 0, 0, 255 }, { 64, 0, 0, 255 }, { 255, 192, 0, 255 }, { 64, 0, 0, 255 },
 				{ 255, 255, 255, 255 }, { 128, 64, 0, 255 },
 
 				{ 255, 64, 0, 255 }, { 255, 192, 0, 255 }, { 32, 128, 255, 255 }, { 64, 0, 0, 255 },
 				{ 0, 0, 0, 255 }, };
 
-		float[] COL_CVL = new float[4];
-		float[] COL_CVR = new float[4];
-		float[] COL_CC = new float[4];
+		final float[] COL_CVL = new float[4];
+		final float[] COL_CVR = new float[4];
+		final float[] COL_CC = new float[4];
 
-		int dimx = width / 2;
-		int dimy = height / 2;
+		final int dimx = width / 2;
+		final int dimy = height / 2;
 
-		PGraphics2D pg = (PGraphics2D) createGraphics(dimx, dimy, PConstants.P2D);
+		final PGraphics2D pg = (PGraphics2D) createGraphics(dimx, dimy, PConstants.P2D);
 		pg.smooth(0);
 		pg.beginDraw();
 		pg.noStroke();
 
 		for (int y = 0; y < dimy; y++) {
 			for (int x = 0; x < dimx; x++) {
-				float nx = x / (float) pg.width;
-				float ny = y / (float) pg.height;
-				float nval = noise(x * 0.025f, y * 0.025f) * 1.7f + 0.3f;
+				final float nx = x / (float) pg.width;
+				final float ny = y / (float) pg.height;
+				final float nval = noise(x * 0.025f, y * 0.025f) * 1.7f + 0.3f;
 				DwUtils.getColor(PALLETTE_L, ny, COL_CVL);
 				DwUtils.getColor(PALLETTE_R, ny, COL_CVR);
 				DwUtils.mix(COL_CVL, COL_CVR, nx, COL_CC);
@@ -274,10 +434,10 @@ public class Waterfall extends PApplet {
 		}
 
 		// add some random noise
-		int num_points = dimx * dimy / 4;
+		final int num_points = dimx * dimy / 4;
 		for (int i = 0; i < num_points; i++) {
-			float x = random(0, dimx - 1);
-			float y = random(0, dimy - 1);
+			final float x = random(0, dimx - 1);
+			final float y = random(0, dimy - 1);
 			pg.fill(0, random(255));
 			pg.rect(x, y, 1, 1);
 		}
@@ -333,18 +493,18 @@ public class Waterfall extends PApplet {
 		pg_obstacles.endDraw();
 	}
 
-	public void drawVelocity(PGraphics pg, int texture_type) {
+	public void drawVelocity(final PGraphics pg, final int texture_type) {
 
-		float vx = 0f; // velocity in x direction
-		float vy = -60; // velocity in y direction
+		final float vx = 0f; // velocity in x direction
+		final float vy = -60; // velocity in y direction
 
-		int argb = Velocity.Polar.encode_vX_vY(vx, vy);
+		final int argb = Velocity.Polar.encode_vX_vY(vx, vy);
 
 		// println(argb);
-		float[] vam = Velocity.Polar.getArc(vx, vy);
+		final float[] vam = Velocity.Polar.getArc(vx, vy);
 
 //    float vA = vam[0]; // velocity direction (angle)
-		float vM = vam[1]; // velocity magnitude
+		final float vM = vam[1]; // velocity magnitude
 
 		if (vM == 0) {
 			// no velocity, so just return
@@ -358,17 +518,17 @@ public class Waterfall extends PApplet {
 
 		if (vM > 0) {
 
-			int offy = height / 3;
+			final int offy = height / 3;
 
 			// add density
 			if (texture_type == 1) {
-				float size_h = height - 2 * offy;
+				final float size_h = height - 2 * offy;
 				pg.noStroke();
 
-				int num_segs = 30;
-				float seg_len = size_h / num_segs;
+				final int num_segs = 30;
+				final float seg_len = size_h / num_segs;
 				for (int i = 0; i < num_segs; i++) {
-					float py = offy + i * seg_len;
+					final float py = offy + i * seg_len;
 					if (i % 2 == 0) {
 						if (frameCount % 50 == 0) {
 							pg.fill(255, 150, 50);
@@ -396,10 +556,10 @@ public class Waterfall extends PApplet {
 
 				// so, a workaround is, to pass 4 components separately
 
-				int a = (argb >> 24) & 0xFF;
-				int r = (argb >> 16) & 0xFF;
-				int g = (argb >> 8) & 0xFF;
-				int b = (argb >> 0) & 0xFF;
+				final int a = (argb >> 24) & 0xFF;
+				final int r = (argb >> 16) & 0xFF;
+				final int g = (argb >> 8) & 0xFF;
+				final int b = (argb >> 0) & 0xFF;
 
 				// println(argb+" "+"a="+a+" "+"r="+r+" "+"g="+g+" "+"b="+b);
 
@@ -423,7 +583,7 @@ public class Waterfall extends PApplet {
 			drawVelocity(pg_velocity, 0);
 			drawVelocity(pg_density, 1);
 
-			drawObstacles();
+			//drawObstacles();
 
 			fluid.addObstacles(pg_obstacles);
 			fluid.update();
@@ -501,11 +661,11 @@ public class Waterfall extends PApplet {
 
 		int shading = 0;
 
-		public ObstaclePainter(PGraphics pg) {
+		public ObstaclePainter(final PGraphics pg) {
 			this.pg = pg;
 		}
 
-		public void beginDraw(int mode) {
+		public void beginDraw(final int mode) {
 			paint_x = mouseX;
 			paint_y = mouseY;
 			this.draw_mode = mode;
@@ -546,7 +706,7 @@ public class Waterfall extends PApplet {
 			this.draw_mode = 0;
 		}
 
-		public void clear(float x, float y) {
+		public void clear(final float x, final float y) {
 			clear_x = x;
 			clear_y = y;
 			pg.beginDraw();
@@ -557,7 +717,7 @@ public class Waterfall extends PApplet {
 			pg.endDraw();
 		}
 
-		public void displayBrush(PGraphics dst) {
+		public void displayBrush(final PGraphics dst) {
 			if (draw_mode == 1) {
 				dst.strokeWeight(1);
 				dst.stroke(0);
@@ -605,12 +765,12 @@ public class Waterfall extends PApplet {
 		UPDATE_FLUID = !UPDATE_FLUID;
 	}
 
-	public void fluid_displayMode(int val) {
+	public void fluid_displayMode(final int val) {
 		DISPLAY_fluid_texture_mode = val;
 		DISPLAY_FLUID_TEXTURES = DISPLAY_fluid_texture_mode != -1;
 	}
 
-	public void fluid_displayVelocityVectors(int val) {
+	public void fluid_displayVelocityVectors(final int val) {
 		DISPLAY_FLUID_VECTORS = val != -1;
 	}
 
@@ -619,9 +779,9 @@ public class Waterfall extends PApplet {
 		pg_obstacles_drawing.beginDraw();
 		pg_obstacles_drawing.clear();
 
-		float dimxy = 2 * height / 3f;
+		final float dimxy = 2 * height / 3f;
 
-		float th = 20;
+		final float th = 20;
 
 		pg_obstacles_drawing.noStroke();
 		pg_obstacles_drawing.fill(255);
@@ -674,13 +834,13 @@ public class Waterfall extends PApplet {
 		ff_fluid.reset();
 	}
 
-	int LIC_DISPLAY_MODE = 0;
+	int LIC_DISPLAY_MODE = 1;
 
-	public void setDisplayType(int val) {
+	public void setDisplayType(final int val) {
 		LIC_DISPLAY_MODE = val;
 	}
 
-	public void setLicStates(float[] val) {
+	public void setLicStates(final float[] val) {
 		ff_fluid.param_lic.TRACE_BACKWARD = val[0] > 0;
 		ff_fluid.param_lic.TRACE_FORWARD = val[1] > 0;
 	}
@@ -698,12 +858,12 @@ public class Waterfall extends PApplet {
 		sy = 14;
 		oy = (int) (sy * 1.5f);
 
-		int col_group = color(8, 64);
+		final int col_group = color(8, 64);
 
 		////////////////////////////////////////////////////////////////////////////
 		// GUI - FLUID
 		////////////////////////////////////////////////////////////////////////////
-		Group group_fluid = cp5.addGroup("fluid");
+		final Group group_fluid = cp5.addGroup("fluid");
 		{
 			group_fluid.setHeight(20).setSize(gui_w, 320).setBackgroundColor(col_group).setColorBackground(col_group);
 			group_fluid.getCaptionLabel().align(CENTER, CENTER);
@@ -742,11 +902,11 @@ public class Waterfall extends PApplet {
 			cp5.addSlider("gridscale").setGroup(group_fluid).setSize(sx, sy).setPosition(px, py += oy).setRange(0, 50)
 					.setValue(fluid.param.gridscale).plugTo(fluid.param, "gridscale");
 
-			RadioButton rb_setFluid_DisplayMode = cp5.addRadio("fluid_displayMode").setGroup(group_fluid)
+			final RadioButton rb_setFluid_DisplayMode = cp5.addRadio("fluid_displayMode").setGroup(group_fluid)
 					.setSize(80, 18).setPosition(px, py += (int) (oy * 1.5f)).setSpacingColumn(2).setSpacingRow(2)
 					.setItemsPerRow(2).addItem("Density", 0).addItem("Temperature", 1).addItem("Pressure", 2)
 					.addItem("Velocity", 3).activate(DISPLAY_fluid_texture_mode);
-			for (Toggle toggle : rb_setFluid_DisplayMode.getItems())
+			for (final Toggle toggle : rb_setFluid_DisplayMode.getItems())
 				toggle.getCaptionLabel().alignX(CENTER);
 
 			cp5.addRadio("fluid_displayVelocityVectors").setGroup(group_fluid).setSize(18, 18)
@@ -761,28 +921,28 @@ public class Waterfall extends PApplet {
 		sx = 100;
 		sy = 14;
 
-		int dy_group = 20;
-		int dy_item = 4;
+		final int dy_group = 20;
+		final int dy_item = 4;
 
 		////////////////////////////////////////////////////////////////////////////
 		// GUI - LIC
 		////////////////////////////////////////////////////////////////////////////
-		Group group_lic = cp5.addGroup("Line Integral Convolution");
+		final Group group_lic = cp5.addGroup("Line Integral Convolution");
 		{
 			group_lic.setHeight(20).setSize(gui_w, height).setBackgroundColor(col_group).setColorBackground(col_group);
 			group_lic.getCaptionLabel().align(CENTER, CENTER);
 
-			DwFlowField.ParamLIC param = ff_fluid.param_lic;
+			final DwFlowField.ParamLIC param = ff_fluid.param_lic;
 
 			px = 15;
 			py = 15;
-			int count = 2;
+			final int count = 2;
 			sx = (gui_w - 30 - 2 * (count - 1)) / count;
-			RadioButton rb_type = cp5.addRadio("setDisplayType").setGroup(group_lic).setSize(sx, sy).setPosition(px, py)
+			final RadioButton rb_type = cp5.addRadio("setDisplayType").setGroup(group_lic).setSize(sx, sy).setPosition(px, py)
 					.setSpacingColumn(2).setSpacingRow(2).setItemsPerRow(count).plugTo(this, "setDisplayType")
 					.setNoneSelectedAllowed(true).addItem("LIC", 0).addItem("FF", 1).activate(LIC_DISPLAY_MODE);
 
-			for (Toggle toggle : rb_type.getItems())
+			for (final Toggle toggle : rb_type.getItems())
 				toggle.getCaptionLabel().alignX(CENTER).alignY(CENTER);
 			py += sy + dy_group;
 
@@ -845,11 +1005,11 @@ public class Waterfall extends PApplet {
 			 */
 			static public float[] getArc(float vx, float vy) {
 				// normalize
-				float mag_sq = vx * vx + vy * vy;
+				final float mag_sq = vx * vx + vy * vy;
 				if (mag_sq < 0.00001) {
 					return new float[] { 0, 0 };
 				}
-				float mag = (float) Math.sqrt(mag_sq);
+				final float mag = (float) Math.sqrt(mag_sq);
 				vx /= mag;
 				vy /= mag;
 
@@ -868,9 +1028,9 @@ public class Waterfall extends PApplet {
 			 * @param y velocity y, unnormalized
 			 * @return encoded polar coordinates
 			 */
-			static public int encode_vX_vY(float vx, float vy) {
-				float[] arc_mag = getArc(vx, vy);
-				int argb = encode_vA_vM(arc_mag[0], arc_mag[1]);
+			static public int encode_vX_vY(final float vx, final float vy) {
+				final float[] arc_mag = getArc(vx, vy);
+				final int argb = encode_vA_vM(arc_mag[0], arc_mag[1]);
 				return argb;
 			}
 
@@ -884,10 +1044,10 @@ public class Waterfall extends PApplet {
 			 * @param vMag
 			 * @return encoded polar coordinates
 			 */
-			static public int encode_vA_vM(float vArc, float vMag) {
-				float vArc_nor = vArc / TWO_PI; // [0, 1]
-				int vArc_I16 = (int) (vArc_nor * (0xFFFF - 1)) & 0xFFFF; // [0, 0xFFFF[
-				int vMag_I16 = (int) (vMag) & 0xFFFF; // [0, 0xFFFF[
+			static public int encode_vA_vM(final float vArc, final float vMag) {
+				final float vArc_nor = vArc / TWO_PI; // [0, 1]
+				final int vArc_I16 = (int) (vArc_nor * (0xFFFF - 1)) & 0xFFFF; // [0, 0xFFFF[
+				final int vMag_I16 = (int) (vMag) & 0xFFFF; // [0, 0xFFFF[
 				return vMag_I16 << 16 | vArc_I16; // ARGB ... 0xAARRGGBB
 			}
 
@@ -898,16 +1058,31 @@ public class Waterfall extends PApplet {
 			 * @param rgba 32bit encoded integer (0xMMMMAAAA)
 			 * @return {vx, vy, vMag}
 			 */
-			static public float[] decode_ARGB(int rgba) {
-				int vArc_I16 = (rgba >> 0) & 0xFFFF; // [0, 0xFFFF[
-				int vMag_I16 = (rgba >> 16) & 0xFFFF; // [0, 0xFFFF[
-				float vArc = TWO_PI * vArc_I16 / (0xFFFF - 1); // [0, TWO_PI]
-				float vMag = vMag_I16;
-				float vx = (float) Math.cos(vArc);
-				float vy = (float) Math.sin(vArc);
+			static public float[] decode_ARGB(final int rgba) {
+				final int vArc_I16 = (rgba >> 0) & 0xFFFF; // [0, 0xFFFF[
+				final int vMag_I16 = (rgba >> 16) & 0xFFFF; // [0, 0xFFFF[
+				final float vArc = TWO_PI * vArc_I16 / (0xFFFF - 1); // [0, TWO_PI]
+				final float vMag = vMag_I16;
+				final float vx = (float) Math.cos(vArc);
+				final float vy = (float) Math.sin(vArc);
 				return new float[] { vx, vy, vMag };
 			}
 		}
 
 	}
+
+	 public class NetInfo{
+	        
+	    	float netMouseX=0.5f;
+	 	    float netMouseY=0.5f;
+
+	 	    int netPMouseX=1;
+	 	    int netPMouseY=1;
+	 	    
+	 	    int tempX=0;
+	 	    int tempY=0;
+	    }
+	    
+	  
+  
 }

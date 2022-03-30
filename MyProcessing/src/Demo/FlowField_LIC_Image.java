@@ -112,7 +112,7 @@ public class FlowField_LIC_Image extends PApplet{
       surface.setResizable(true);
       
       //img = loadImage("data/Mona_Lisa_1024.jpg");
-      img = loadImage("../data/sky.jpg");
+      img = loadImage("../data/head.png");
       
       context = new DwPixelFlow(this);
       context.print();
@@ -129,9 +129,9 @@ public class FlowField_LIC_Image extends PApplet{
       ff_impulse.param_lic.TRACE_BACKWARD = true;
       ff_impulse.param_lic.TRACE_FORWARD  = !true;
       
+    
       
       spout = new Spout(this);
-      
       resizeScene();
       
       createGUI();
@@ -172,7 +172,7 @@ public class FlowField_LIC_Image extends PApplet{
     }
     
 
-    
+    private boolean isShowImage=true;
     
     public void resetScene(){
       
@@ -183,15 +183,16 @@ public class FlowField_LIC_Image extends PApplet{
       float ratioy = dimy / (float) img.height;
       
       float ratio = min(ratiox, ratioy);
-      
+      println("rest scene");
       pg_source.beginDraw();
       pg_source.image(pg_noise, 0, 0, dimx, dimy);
-      
+      pg_source.background(255);
       pg_source.pushMatrix();
       pg_source.translate(dimx/2, dimy/2);
       pg_source.scale(ratio);
       pg_source.translate(-img.width/2, -img.height/2);
-      pg_source.image(img, 0, 0);
+      if(isShowImage)
+        pg_source.image(img, 0, 0);
       pg_source.popMatrix();
       
 
@@ -307,8 +308,8 @@ public class FlowField_LIC_Image extends PApplet{
         ellipse(mouseX, mouseY, impulse_radius, impulse_radius);
       }
       
-      spout.sendTexture();
       
+      spout.sendTexture();
       info();
     }
     
@@ -327,6 +328,11 @@ public class FlowField_LIC_Image extends PApplet{
       if(key >= '1' && key <= '9') DISPLAY_MODE = key - '1';
       if(key=='+')impulse_radius+=20;
       if(key=='-')impulse_radius-=20;
+      if(key=='s')
+      {
+    	  isShowImage = !isShowImage;
+    	  resetScene();
+      }
     }
     
     
